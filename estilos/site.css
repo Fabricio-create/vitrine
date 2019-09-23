@@ -1,0 +1,132 @@
+body{
+    font-family: "crimison text", "Times new roman", serif;
+    background-color: #f2fffc;
+    font-size: 120%;
+    line-height: 1.5;
+}
+
+h1,h2{
+    font-family: "open sans condensed", "arial", sans-serif;
+}
+
+.titulo-principal{
+    text-align: center;
+    background-color: #851944;
+    color: #fff;
+    padding: 25px;
+    border-bottom: 10px solid black;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+p{
+    text-align: justify;
+    margin: 20px 0;
+}
+
+.navegacao-site{
+    text-align: center;
+    background-color: #3c1d3d;
+    color: #f2fffc;
+    width: 15%;
+    position: relative;
+    top: 310px;
+}
+
+.rodape-pagina{
+    background-color: #000;
+    color: #f2fffc;
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+main a{
+    color: #851944;
+}
+
+.navegacao-site a{
+    color: inherit;
+    font-family: "open sans condensed", sans-serif;
+}
+
+.navegacao-site, .rodape-pagina{
+    padding: 20px;
+}
+
+.container{
+    width: 720px;
+    margin: auto;
+    padding: 30px 0;
+}
+
+.navegacao-site h1{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+strong{
+    font-weight: bold;
+}
+
+em{
+    font-style: italic;
+}
+
+.subtitulo-texto{
+    font-size: 30px;
+    clear: both;
+}
+
+.icones-redes-sociais li{
+    display: inline-block;
+}
+
+nav a{
+    text-transform: lowercase;
+}
+
+.icones-redes-sociais a{
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-indent: -99999px;
+}
+
+.github{
+    background-image: url(../imagens/github.png);
+}
+
+.twitter{
+    background-image: url(../imagens/twitter.png);
+}
+
+.linkedin{
+    background-image: url(../imagens/linkedin.png);
+}
+
+main{
+    float: left;
+    width: 85%;
+    padding-bottom: 80px;
+}
+.minha-foto, .navegacao-site{
+    float: right;
+    box-sizing: border-box;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+}
+
+.minha-foto{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.navegacao-site{
+    width: 15%;
+    position: relative;
+    top: 310px;
+}
